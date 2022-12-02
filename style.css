@@ -1,0 +1,21 @@
+h1{
+    text-align: center
+}
+
+p{
+    text-align: center
+}
+
+.caixa {
+    margin-bottom: 15%;
+    display: grid;
+    grid-template-columns: 39% 8% 8% 8% 8% 8% 8%;
+}
+
+.travel{
+margin-left: 10%;
+}
+
+header{
+    display: grid;
+}
