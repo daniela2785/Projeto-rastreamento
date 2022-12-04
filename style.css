@@ -10,12 +10,31 @@ p{
     margin-bottom: 15%;
     display: grid;
     grid-template-columns: 39% 8% 8% 8% 8% 8% 8%;
+    font-size: 14px;
+    color:#ffffff
+    
 }
 
 .travel{
 margin-left: 10%;
+font-size: 20px;
+color: #ffffff;
 }
 
 header{
     display: grid;
+    font-size:19px;
+    color:#ffffff
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./css.jpg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
