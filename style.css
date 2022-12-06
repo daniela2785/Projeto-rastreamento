@@ -6,7 +6,7 @@ p{
     text-align: center
 }
 
-.caixa {
+.caixa-opcao{
     margin-bottom: 15%;
     display: grid;
     grid-template-columns: 39% 8% 8% 8% 8% 8% 8%;
@@ -37,4 +37,15 @@ body{
     background-image: url('./css.jpg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+}
+.barra-de-pesquisa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: black;
+    padding: -1em;
+    border-left: 25%;
+
 }
