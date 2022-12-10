@@ -11,14 +11,19 @@ p{
     display: grid;
     grid-template-columns: 39% 8% 8% 8% 8% 8% 8%;
     font-size: 14px;
-    color:#ffffff
+    color:#ffffff;
+    margin: 3%
     
+}
+.titulo{
+    margin: 13%;
 }
 
 .travel{
 margin-left: 10%;
 font-size: 20px;
 color: #ffffff;
+margin: 0%;
 }
 
 header{
@@ -40,12 +45,25 @@ body{
 }
 .barra-de-pesquisa{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display:flex;
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10%;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: #ffffff;
     color: black;
     padding: -1em;
     border-left: 25%;
-
+    margin:2%;
+    border-radius: 4px;
 }
+
+#cidadeoudestino{
+    border-style: none;
+}
+
+#datadaestadia, #pessoas{
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
